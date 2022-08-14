@@ -7,19 +7,19 @@ import { Options, Vue } from 'vue-class-component'
 
 @Options({
   methods: {
-    adding (a: number, b: number) {
+    adding (a: number, b: number): number {
       return a + b
     },
 
-    multiplying (a: number, b: number) {
+    multiplying (a: number, b: number): number {
       return a * b
     },
 
-    substracting (a: number, b: number) {
+    substracting (a: number, b: number): number {
       return a - b
     },
 
-    dividing (a: number, b: number) {
+    dividing (a: number, b: number): number {
       return a / b
     }
   }
